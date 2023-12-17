@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    height: 760px;
+    width: 1170px;
+  }
+  
+  th, td {
+    padding-left: 20px;
+    text-align: left;
+    height: 50px;
+    width: 1170px;
+  }
+  
+  td {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: unset;
+  }
+  
+  th {
+    height: 60px;
+    background: rgb(136, 17, 72);
+    color: white;
+  }
+ 
+
+  div{
+    display: block;
+    position: relative;
+  } 
+   
+  tr:nth-child(8n+2), tr:nth-child(8n+3), tr:nth-child(8n+4), tr:nth-child(8n+5) {
+    background-color: rgb(255, 213, 213);
+}
+
+tr:nth-child(8n), tr:nth-child(8n+1), tr:nth-child(8n+6), tr:nth-child(8n+7) {
+    background-color: rgb(255, 187, 252);
+}
